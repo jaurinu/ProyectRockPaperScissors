@@ -40,25 +40,7 @@ enum Sign {
         }
     }
     
-    enum GameState {
-        case comenzamos
-        case ganaste
-        case perdiste
-        case empate
-        
-        var status: String {
-            switch self {
-            case .comenzamos:
-                return "Elige: Piedra, Papel o Tijera?"
-            case .ganaste:
-                return "Ganaste!"
-            case .perdiste:
-                return "Lo siento ... Perdiste!"
-            case .empate:
-                return "Empate!"
-            }
-        }
-    }
+    
     
     func getGameState(sign: Sign) -> GameState {
         switch self {

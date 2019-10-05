@@ -13,6 +13,7 @@
 		CD2408B1234912CA0060D27E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2408B0234912CA0060D27E /* Assets.xcassets */; };
 		CD2408B4234912CA0060D27E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2408B2234912CA0060D27E /* LaunchScreen.storyboard */; };
 		CD2408BC234912E40060D27E /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2408BB234912E40060D27E /* Sign.swift */; };
+		CD2408BE23491B880060D27E /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2408BD23491B880060D27E /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD2408B3234912CA0060D27E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2408B5234912CA0060D27E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD2408BB234912E40060D27E /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		CD2408BD23491B880060D27E /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CD2408A9234912C80060D27E /* AppDelegate.swift */,
 				CD2408AB234912C80060D27E /* ViewController.swift */,
 				CD2408BB234912E40060D27E /* Sign.swift */,
+				CD2408BD23491B880060D27E /* GameState.swift */,
 				CD2408AD234912C80060D27E /* Main.storyboard */,
 				CD2408B0234912CA0060D27E /* Assets.xcassets */,
 				CD2408B2234912CA0060D27E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2408AC234912C80060D27E /* ViewController.swift in Sources */,
+				CD2408BE23491B880060D27E /* GameState.swift in Sources */,
 				CD2408AA234912C80060D27E /* AppDelegate.swift in Sources */,
 				CD2408BC234912E40060D27E /* Sign.swift in Sources */,
 			);
