@@ -53,7 +53,7 @@ enum Sign {
         case .papel:
             switch sign {
             case .piedra: return .ganaste
-            case .papel: return .ganaste
+            case .papel: return .empate
             case .tijera: return .perdiste
             }
         case .tijera:
